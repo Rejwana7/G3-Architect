@@ -255,25 +255,25 @@ text-align: left;
 
 /* some facts */
 .fact-container{
-   /* border:2px solid blue;  */
-  width:85%;
-  margin: 0 auto; 
+    /* border:2px solid blue;   */
+     width:90%;
+  margin: 0 auto;   
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  /* justify-items: center; */
-  gap:30px;
+      justify-items: center;    
+  gap:20px;
 
 }
 .fact{
   border: 1px solid #ff900e;
   border-radius: 8px;
-  max-width:200px;
-  height:180px;
+  width: 200px;
+   height:180px; 
  display: flex;
    /* Add this to ensure flexbox layout  */
   justify-content: center;
     /* Center the content horizontally  */
-  align-items: center;
+  align-items:center ;
     /* Center the content vertically  */
   text-align: center; 
 
@@ -324,13 +324,69 @@ line-height: 1.5rem;
   /* margin-top: 10px; */
 }
 
+/* sponsor */
+.sponsor-section{
+ margin-top: 90px;
+}
+.sponsors-info{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+.sponsor-company{
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+  width:80%;
+  margin: 0 auto;
+   justify-items: center; 
+}
+.sponsor-company img{
+  /* border: 3px solid blue; */
+  filter: grayscale(100%);
+  width:70%;
+}
+.sponsor-title{
+  color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 2rem;
+font-weight: 700;
+line-height: 2rem;
 
+}
 
+.sponsor-description{
+  color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 0.9rem;
+font-weight: 400;
+line-height: 1rem;
+margin-top: 20px;
+margin-bottom: 40px;
 
+}
+footer{
+  margin-top: 90px;
+}
+.footer-content {
+  /* border: 2px solid black; */
+  max-width: 80%;
+  margin: 0 auto;
+  height:100px;
+  border-radius: 5px;
 
+background: rgb(255, 244, 231);
+display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
 
-
-
+.footer-content p{
+  text-align: center;
+ /* margin-top: 70px; */
+ 
+}
 
 
 
